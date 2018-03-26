@@ -85,7 +85,7 @@ img {
     padding-top: 70px;
     height: 750px;
     text-transform: uppercase;
-    background: linear-gradient(#ffa949, transparent 65%),
+    background: linear-gradient(#ffa949, transparent 30%),
                 linear-gradient(0deg, #fff, transparent),
         
                 #ffa949 url("../IMG/treehome.jpg") no-repeat center;
