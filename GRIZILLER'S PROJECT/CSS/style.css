@@ -1,51 +1,38 @@
-
-    
 /*  Base Styles--------------*/
 
-    box-sizing: { border-box;
+
+/* box-sizing: { border-box;
     margin:0;
     padding:0;
-}
+} */
 
 body {
     text-align: justify;
     font: normal 24px 2.1em/1.6 sans-serif;
     letter-spacing: normal;
     margin: 0;
-/* I Placed font weight, font-size, line-height + font-family all in 1 decleration*/
+    /* I Placed font weight, font-size, line-height + font-family all in 1 decleration*/
 }
 
 p {
-
-font-family: 'Varela Round', sans-serif;
-font-size: 17px;
-margin-bottom: 1.5em;
-line-height: 1.9em;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+    margin-bottom: 1.5em;
+    line-height: 1.9em;
 }
 
-h1  {
-    margin:auto;
-    font-size:140px;
+h1 {
+    margin: auto;
+    font-size: 140px;
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
     line-height: 1.2;
-    text-shadow: 2 1px 0 #ccc,
-                 2 2px 0 #c9c9c9,
-                 2 3px 0 #bbb,
-                 2 4px 0 #b9b9b9,
-                 2 5px 0 #aaa,
-                 2 6px 1px rgba(0,0,0,.1),
-                 0 0 5px rgba(0,0,0,.1),
-                 0 1px 3px rgba(0,0,0,.3),
-                 0 3px 5px rgba(0,0,0,.2),
-                 0 5px 10px rgba(0,0,0,.25),
-                 0 10px 10px rgba(0,0,0,.2),
-                 0 20px 20px rgba(0,0,0,.15);
+    text-shadow: 2 1px 0 #ccc, 2 2px 0 #c9c9c9, 2 3px 0 #bbb, 2 4px 0 #b9b9b9, 2 5px 0 #aaa, 2 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
 }
 
 h2 {
-    font-size:80px;
+    font-size: 80px;
     font-weight: normal;
     margin-top: 25px;
 }
@@ -61,32 +48,36 @@ h3 {
 }
 
 img {
-  border-radius: 35px;
-  padding-bottom: 25px;
-  align-content:center;
-  max-width: 100%;
-  margin: auto;
-  width: auto;
+    border-radius: 35px;
+    padding-bottom: 25px;
+    align-content: center;
+    max-width: 100%;
+    margin: auto;
+    width: auto;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-.navcontainer,ul,li {
+.navcontainer,
+ul,
+li {
     display: inline;
     text-align: left;
     width: 100px;
     padding: 5px 9px 5px 9px;
-    font-size:larger;
+    font-size: larger;
 }
+
 
 /* ---- Navigation ---- */
 
 .title,
-.navcontainer, ul {
-  	text-align: center;
-	margin: 16px 0 12px 0;
+.navcontainer,
+ul {
+    text-align: center;
+    margin: 16px 0 12px 0;
     padding: 12px
 }
 
@@ -96,53 +87,58 @@ a {
     background: #fff;
     color: sandybrown;
 }
-.navcontainer, ul   {
+
+.navcontainer,
+ul {
     margin-right: 20px;
 }
 
+
 /* Main Styles-------------*/
 
- .main-header {
+.main-header {
     padding-top: 70px;
     padding-bottom: 1em;
     height: 750px;
     text-transform: uppercase;
-    background: linear-gradient(#ffa949,transparent 50%),
-                linear-gradient(0deg, #fff, transparent),
-                #ffa949 url("../IMG/treehome.jpg") no-repeat center;
+    background: linear-gradient(#ffa949, transparent 50%), linear-gradient(0deg, #fff, transparent), #ffa949 url("../IMG/treehome.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 50px;
 }
 
 .container {
-    width: 0 auto; 
+    width: 0 auto;
     text-shadow: 9px 4px 15px black;
     color: #947e5dd9;
 }
 
 .title {
-    font-size: 1.925rem;   /*----26px/16px =1.625rem----*/   
+    font-size: 1.925rem;
+    /*----26px/16px =1.625rem----*/
     color: #666;
     margin: 85px,
-} 
+}
 
 .primary-content {
-   text-align: center;
-   padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .primary-content,
 .secondary-content {
-padding-left: 50px;
-padding-right: 50px;
-margin: auto;
-max-width: 960px;
-}  /*-------The reason i placed it here is, so as to compare and contrast the differences of mixed styling with two selectors---------------*/
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 960px;
+}
+
+
+/*-------The reason i placed it here is, so as to compare and contrast the differences of mixed styling with two selectors---------------*/
 
 .secondary-content {
-padding-top: 0;
-padding-bottom: 0px;
-border-bottom: 2px solid #dfe2e6;
+    padding-top: 0;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #dfe2e6;
 }
 
 #main-footer {
@@ -153,9 +149,10 @@ border-bottom: 2px solid #dfe2e6;
 }
 
 .t-border {
-border-top: 1px solid lightgrey;
-margin-bottom: auto;
+    border-top: 1px solid lightgrey;
+    margin-bottom: auto;
 }
+
 
 /* Layout Styles-------------*/
 
@@ -168,49 +165,46 @@ margin-bottom: auto;
     margin-bottom: 35px auto;
 }
 
-.habittext{
-margin-bottom: 170px;
-font-family: normal sans-serif;
-line-height: normal;
-background-color: blanchedalmond;
-background: #66CDAA url("../IMG/Carbon_Hd.jpg") no-repeat center;
-background-size: 100% 100%;
-color: darkcyan;
-text-align: justify;
-border-radius: 80px 10%;
-padding: 25px 15px 15px 15px;
-width: 100;
+.habittext {
+    margin-bottom: 170px;
+    font-family: normal sans-serif;
+    line-height: normal;
+    background-color: blanchedalmond;
+    background: #66CDAA url("../IMG/Carbon_Hd.jpg") no-repeat center;
+    background-size: 100% 100%;
+    color: darkcyan;
+    text-align: justify;
+    border-radius: 80px 10%;
+    padding: 25px 15px 15px 15px;
+    width: 100;
 }
 
 .promise {
-text-decoration-line: none;
-color: #EDE7F6;
-background-color: darkcyan;
-background: #66CDAA url("../IMG/Dynamic_Waves.jpg") no-repeat center;
-background-size:100% 100%;
-border-radius: 35px;
-padding-right: 20px;
-padding-left: 90px; 
-font-size: 21px;
+    text-decoration-line: none;
+    color: #EDE7F6;
+    background-color: darkcyan;
+    background: #66CDAA url("../IMG/Dynamic_Waves.jpg") no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 35px;
+    padding-right: 20px;
+    padding-left: 90px;
+    font-size: 21px;
 }
 
 .promise,
 .specials {
-width:auto;
-padding: 5px 5px 5px 5px;
-text-align: left;
-   
-        
-
+    width: auto;
+    padding: 5px 5px 5px 5px;
+    text-align: left;
 }
 
 .specials {
-text-decoration-line: none;
-border-radius: auto; 
-color: #EDE7F6;
-font-size: 25px;
-
+    text-decoration-line: none;
+    border-radius: auto;
+    color: #EDE7F6;
+    font-size: 25px;
 }
+
 
 /* Psedo Classes------------*/
 
@@ -231,24 +225,23 @@ a:active {
 }
 
 
-/* Floated Columns------------*/ 
+/* Floated Columns------------*/
 
 .lifehabits,
-.choicenspecials{
- width: 46.5%;
-    
+.choicenspecials {
+    width: 46.5%;
 }
-.choicenspecials{
+
+.choicenspecials {
     float: left;
-  
 }
 
 .lifehabits {
     float: right;
-    
 }
 
-/* Floated Clearfix------------*/ 
+
+/* Floated Clearfix------------*/
 
 .group:after {
     content: "";
